@@ -140,6 +140,7 @@ table {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.unsplash.com/photo-1635239239608-40c8dd5b895e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
   background-size: cover;
+  background-attachment: fixed;
 }
 h1 {
   text-align: center;
