@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "DM+serif";
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style ..... */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@200&family=Open+Sans:wght@300&family=PT+Sans:wght@700&display=swap");
+
+.container {
+  max-width: 100vw;
+  /* height: 100vh; */
+  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1635239239608-40c8dd5b895e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 25px;
+}
+.box-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 900;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 30%;
+  height: 250px;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  background-color: brown;
+}
+.box-2 {
+  background: linear-gradient(to right, rgb(45, 45, 29), rgb(234, 80, 66));
+}
+.box-3 {
+  background: radial-gradient(brown 50%, rgba(45, 45, 29));
+}
+.img-section {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 90px;
+}
+
+.img-box {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.9),
+      rgba(225, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80")
+      50% 50% no-repeat;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  background-size: cover;
+}
