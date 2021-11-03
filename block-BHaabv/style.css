@@ -246,10 +246,10 @@ p {
   border: 2px solid rgb(12, 12, 218);
 }
 .border-insta {
-  border: 2px solid #e25c8f;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background-color: linear-gradient(to right, #e2a441, #e25c8f);
+  height: 4px;
+  background: linear-gradient(to right, #e2a441, #e25c8f);
 }
 .border-utube {
   border-top-left-radius: 4px;
